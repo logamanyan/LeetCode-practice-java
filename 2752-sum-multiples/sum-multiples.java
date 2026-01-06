@@ -1,13 +1,14 @@
 class Solution {
     public int sumOfMultiples(int n) {
         int s=0;
-        for(int i=1;i<=n;i++)
+        while(n>=1)
         {
-            if(i%3==0||i%5==0||i%7==0)
+            if(n%3==0||n%5==0||n%7==0)
             {
-                s+=i;
+                s+=n;
 
             }
+            n--;
         }
         return s;
     }
