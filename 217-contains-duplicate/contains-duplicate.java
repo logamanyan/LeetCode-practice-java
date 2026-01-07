@@ -4,10 +4,10 @@ class Solution {
          int a=0;
 Arrays.sort(nums);
 
-        for(int i=0;i<n-1;i++)
+        for(int i=1;i<n;i++)
         {
             
-            if(nums[i]==nums[i+1])
+            if(nums[i]==nums[i-1])
             {
                 return true;
 
