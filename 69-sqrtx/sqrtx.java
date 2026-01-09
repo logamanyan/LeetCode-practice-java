@@ -5,7 +5,7 @@ class Solution {
             return x;
         }
         
-     int i=2;
+     int i=1;
             while((long)i*i<=x)
             {
                 i++;
