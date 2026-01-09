@@ -6,8 +6,8 @@ class Solution {
        int max=0;
        while(l<r)
        {
-        int w=r-l;
-        int h=Math.min(height[l],height[r])*(w);
+        
+        int h=Math.min(height[l],height[r])*(r-l);
         max=Math.max(max,h);
 
         if(height[l]<height[r])
