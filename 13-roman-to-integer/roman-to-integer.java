@@ -1,10 +1,11 @@
 class Solution {
     public int romanToInt(String s) {
         int sum=0;
-        for(int i=0;i<s.length();i++)
+        int n=s.length();
+        for(int i=0;i<n;i++)
         {
             int curr= value(s.charAt(i));
-            int next= (i+1)<s.length()?value(s.charAt(i+1)):0;
+            int next= (i+1)<n?value(s.charAt(i+1)):0;
             if(curr>=next)
             {
                 sum+=curr;
