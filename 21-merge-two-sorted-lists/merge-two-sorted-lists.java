@@ -21,13 +21,13 @@ class Solution {
         {
             if(list1.val<=list2.val)
             {
-                temp=new ListNode(list1.val);
+              temp=new ListNode(list1.val);
                 list1= list1.next;
 
             }
             else
             {
-                temp = new ListNode(list2.val);
+                 temp = new ListNode(list2.val);
                 list2= list2.next;
             }
             if(head==null)
